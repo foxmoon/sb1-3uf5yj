@@ -1,0 +1,18 @@
+{
+  "name": "video-processing-system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "openai": "^4.20.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
